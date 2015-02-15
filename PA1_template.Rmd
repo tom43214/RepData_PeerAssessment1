@@ -8,7 +8,7 @@ opts_chunk$set(message = FALSE) ##hide library loading messages
 
 ## Loading and preprocessing the data
 
-First, we load the file. The zip file is assumed to be in the working directory. No preprocessing is necessary for my analysis.
+First, we load the file. The zip file is assumed to be in the working directory.
 ```{r loaddata, echo = TRUE}
 unzip("activity.zip")
 activity <- read.csv("activity.csv")

@@ -5,7 +5,7 @@ Reproducible Research: Peer Assessment 1
 
 ## Loading and preprocessing the data
 
-First, we load the file. The zip file is assumed to be in the working directory. No preprocessing is necessary for my analysis.
+First, we load the file. The zip file is assumed to be in the working directory.
 
 ```r
 unzip("activity.zip")
